@@ -16,9 +16,9 @@ on:
  
 env:
  tfcode_path: .
- tfc_organisation: demo-tf-org # Replace it with your TFC Org
+ tfc_organisation: kyle-miller_IaC # Replace it with your TFC Org
  tfc_hostname: app.terraform.io
- tfc_workspace: demo-tf-workspace # Replace it with your TFC Workspace
+ tfc_workspace: AWS_IaC # Replace it with your TFC Workspace
  
 jobs:
  aws_tfc_job:
