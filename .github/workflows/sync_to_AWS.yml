@@ -1,5 +1,5 @@
 # This workflow will create AWS resource using HCP Terraform
-# It is reusable workflow that can be called in other workflow
+# It is reusable workflow that can be called in other workflows
  
 name: AWS Infra Creation Using in HCP Terraform
  
