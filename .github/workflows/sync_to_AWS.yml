@@ -43,7 +43,7 @@ jobs:
      run: |
        echo `pwd`
        echo "** Running Terraform Init**"
-       terraform init
+       terraform init -input=false -force-copy
         
        echo "** Running Terraform Validate**"
        terraform validate
@@ -95,7 +95,7 @@ jobs:
        run: |
          echo `pwd`
          echo "** Running Terraform Init**"
-         terraform init
+         terraform init -input=false -force-copy
       
          echo "** Running Terraform Validate**"
          terraform validate
