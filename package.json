@@ -1,0 +1,22 @@
+{
+  "name": "iac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmiller4/IaC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmiller4/IaC/issues"
+  },
+  "homepage": "https://github.com/kmiller4/IaC#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.11"
+  }
+}
