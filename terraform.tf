@@ -181,4 +181,23 @@ resource "aws_lambda_function" "my_lambda_function" {
 resource "aws_apigatewayv2_api" "gateway" {
   name = "visitor-counter-api"
   protocol_type = "HTTP"
+  cors_configuration {
+    allow_credentials = false
+    allow_headers = [
+      "authorization",
+      "content-type",
+      "x-custom-header",
+    ]
+    allow_methods = [
+      "GET",
+      "OPTIONS",
+      "PUT",
+    ]
+    allow_origins = [
+      "*",
+      "http://localhost:3000",
+    ]
+    expose_headers = []
+    max_age = 0
+  }
 }
