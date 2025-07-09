@@ -196,6 +196,8 @@ resource "aws_apigatewayv2_api" "gateway" {
     allow_origins = [
       "*",
       "http://localhost:3000",
+      "https://kyle-miller.net",
+      "https://www.kyle-miller.net",
     ]
     expose_headers = []
     max_age = 0
